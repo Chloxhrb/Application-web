@@ -51,4 +51,5 @@ chat_completion = client.chat.completions.create(
   max_tokens=100,
   top_p=1.0,
   frequency_penalty=0.0,
-  pr
+  presence_penalty=0.0
+)
