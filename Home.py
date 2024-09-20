@@ -1,6 +1,8 @@
 from openai import OpenAI
 import streamlit as st 
 
+st.title("Application Web - Open IA")
+
 key_input = st.sidebar.text_input("Veuillez entré la clé Open IA")
 
 client = OpenAI(
