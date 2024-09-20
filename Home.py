@@ -1,6 +1,14 @@
 from openai import OpenAI
 import streamlit as st 
 
+st.set_page_config(
+    page_title="Home - Générateur d'images",
+    page_icon="https://quera.fr/wp-content/uploads/2022/11/cropped-Quera_Agence_Data_Webmarketing_logo.png",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+
 st.title("Application Web - Open IA")
 
 key_input = st.sidebar.text_input("Veuillez entré la clé Open IA")
