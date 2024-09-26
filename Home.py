@@ -17,7 +17,7 @@ client = OpenAI(
     api_key= key_input,
 )
 
-user_input = st.text_input("veuillez entré une description de l'image que vous souhaitez generer")
+user_input = st.text_input("Veuillez entrer une description de l'image que vous souhaitez générer")
 
 if user_input != "" :
     prompt = user_input
