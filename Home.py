@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 
-st.title("Application Web - Open IA")
+st.title("Dall-e 3")
 
 key_input = st.sidebar.text_input("Veuillez entré la clé Open IA")
 
