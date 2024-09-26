@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.title("Dall-e 3")
 
-key_input = st.sidebar.text_input("Veuillez entré la clé Open IA")
+key_input = st.sidebar.text_input("Veuillez entrer la clé Open IA")
 
 client = OpenAI(
     api_key= key_input,
